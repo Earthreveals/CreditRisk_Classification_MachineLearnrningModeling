@@ -39,13 +39,13 @@ Open the credit_risk_classification.ipynb notebook in a Jupyter environment to v
 
 ## Results
 The classifier achieved the following performance metrics:
-Model 0
+Model 0 - Healthy Loan
 Accuracy: 99%
 Precision: 100%
 Recall: 99%
 F1-Score: 100% 
 
-Model 1
+Model 1 - High Risk Loan
 Accuracy: 99%
 Precision: 85%
 Recall: 91%
