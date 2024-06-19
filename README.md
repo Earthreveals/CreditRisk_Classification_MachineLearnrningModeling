@@ -35,7 +35,13 @@ cd loan-status-prediction
 pip install -r requirements.txt
 
 ## Usage
-Open the credit_risk_classification.ipynb notebook in a Jupyter environment to view the analysis and prediction process. Run all the cells to train the model and make predictions.
+The Jupyter notebook credit_risk_classification.ipynb includes the following sections:
+
+Data Loading and Exploration: Load and explore the dataset to understand its structure and contents.
+Data Preprocessing: Clean and preprocess the data, including handling missing values and encoding categorical variables.
+Model Training: Train a K-Nearest Neighbors classifier on the training data.
+Model Evaluation: Evaluate the model using various metrics to determine its performance.
+Prediction: Use the trained model to make predictions on new data.
 
 ## Results
 The classifier achieved the following performance metrics:
@@ -50,6 +56,16 @@ Accuracy: 99%
 Precision: 85%
 Recall: 91%
 F1-Score: 88%
+
+Conclusion
+This project demonstrates the application of machine learning techniques to predict loan status, which can help financial institutions in assessing the risk associated with lending. The K-Nearest Neighbors classifier, along with careful data preprocessing and analysis, provides valuable insights into the factors that influence loan repayment.
+
+Future Work
+Future improvements could include:
+
+Exploring other machine learning algorithms to improve prediction accuracy.
+Conducting feature engineering to create new predictive features.
+Integrating more sophisticated techniques for handling imbalanced data.
 
 ## Contributing
 Nick Nath
